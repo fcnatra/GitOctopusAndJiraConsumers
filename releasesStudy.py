@@ -11,7 +11,7 @@ groupProjectManager = groupsManager.get(groupId).projects
 gitLibraryTest.printProjects(groupProjectManager)
 
 projectId = 23
-projectManagerRETAbet = gitRepository.projects.get(projectId)
+projectManager = gitRepository.projects.get(projectId)
 
 filterInformation = gitLibraryTest.FilterInformation(startDate = '2019-04-11T00:00:00Z')
 gitLibraryTest.printCommits(projectManager, filterInformation)
